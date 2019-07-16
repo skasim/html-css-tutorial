@@ -1,0 +1,15 @@
+.intro {
+    background-color: red;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: yellow;
+    border: 2px solid #555555;
+    width: 200px;
+}
+
+/* Machine readers used to have to make sense of all the above <div>’s and more. The new semantic HTML elements we learned in this chapter are like standardized versions of these class names. Now, they can simply look for a <header> element. We can still add whatever class name we want to it for styling purposes, but search engines and screen readers now have a predictable way to identify headers across every HTML5 website on the Internet. */
